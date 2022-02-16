@@ -1,0 +1,86 @@
+.seven h1 {
+    text-align: center;
+        font-size:30px; font-weight:300; color:#222; letter-spacing:1px;
+        text-transform: uppercase;
+    
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows: 27px 0;
+        grid-gap: 20px;
+        align-items: center;
+    }
+.seven h1:after,.seven h1:before {
+        content: " ";
+        display: block;
+        border-bottom: 2px solid #ccc;
+        background-color:#f8f8f8;
+      }
+
+.eight h1 {
+        text-align:center;
+       
+        text-transform:uppercase;
+        font-size:26px; letter-spacing:1px;
+        
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: 16px 0;
+        grid-gap: 22px;
+      }
+      
+.eight h1:after,.eight h1:before {
+        content: " ";
+        display: block;
+        border-bottom: 2px solid #ccc;
+        background-color:#f8f8f8;
+      }
+
+.card-body{
+    background-color: white;
+    border-radius: 10%;
+}
+
+.card {
+    border-radius: 10%;
+}
+
+.question-answer {
+    border-radius: 0 !important;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+    font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.download-btn {
+    background-color: #52c41a !important;
+}
+.download-btn:hover {
+    background-color: #73d13d !important;
+}
+
